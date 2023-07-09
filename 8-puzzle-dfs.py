@@ -69,7 +69,7 @@ def dfs(problem):
 
 #in_sta=[2, 8, 3, 1, 6, 4, 7, 0, 5]
 #goal_sta=[1,2,3,4,8,0,7,5,6]
-#There is no guarantee for solution using DFS 
+#There is no guarantee of obtaining a  solution using DFS 
 print('Enter initial state:')
 in_sta=[int(x) for x in input().split()]
 print('Enter goal state of puzzle')
